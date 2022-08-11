@@ -1,0 +1,6 @@
+Datasets:
+https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets
+
+Codigos:
+https://paperswithcode.com/task/unsupervised-anomaly-detection/latest
+https://paperswithcode.com/task/anomaly-detection/latest
