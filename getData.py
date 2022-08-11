@@ -13,6 +13,11 @@ class dataColector():
     #initialize the class
     def __init__(self):
         self.vidcap = cv2.VideoCapture(0)
+        #create DataC and DataM folders if not existent
+        if not os.path.exists("DataC"):
+            os.makedirs("DataC")
+        if not os.path.exists("DataM"):
+            os.makedirs("DataM")
 
     #function to collect one instance of data from the camera
     def collectCameraData(self):
