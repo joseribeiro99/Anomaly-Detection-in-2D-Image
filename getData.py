@@ -1,6 +1,7 @@
 # this program collects data from the camera and from the microphone
 # saves the camera data in the DacaC folder
 # saves the microphone data in the DataM folder
+    # use of audio data still under consideration
 
 #imports
 import numpy as np
