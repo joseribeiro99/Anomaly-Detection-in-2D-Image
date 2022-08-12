@@ -4,3 +4,6 @@ https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets
 Codigos:
 https://paperswithcode.com/task/unsupervised-anomaly-detection/latest
 https://paperswithcode.com/task/anomaly-detection/latest
+
+May need:
+https://www.youtube.com/watch?v=BRoj3xG_C-o
