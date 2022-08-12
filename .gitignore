@@ -139,6 +139,7 @@ ehthumbs.db
 Thumbs.db
 
 .idea
+.ipynb_checkpoints
 
 DataM/
 DataC/
