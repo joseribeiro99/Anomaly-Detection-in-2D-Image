@@ -1,4 +1,4 @@
-# Anomaly-Detection-2D-Images
+# Anomaly-Detection-in-2D-Image
 This project is composed of the following pipeline:
 
 ## 1. Get data from the camera [COMPLETE]
