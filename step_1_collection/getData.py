@@ -1,7 +1,5 @@
-# this program collects data from the camera and from the microphone
+# this program collects data from the camera 
 # saves the camera data in the DacaC folder
-# saves the microphone data in the DataM folder
-    # use of audio data still under consideration
 
 #imports
 import numpy as np
@@ -14,7 +12,7 @@ class dataColector():
     #initialize the class
     def __init__(self):
         self.vidcap = cv2.VideoCapture(0)
-        #create DataC and DataM folders if not existent
+        #create DataC folder if not existent
         if not os.path.exists("DataC"):
             os.makedirs("DataC")
         if not os.path.exists("DataM"):
@@ -36,16 +34,11 @@ class dataColector():
         filename = time.strftime("%d_%m_%Y_%H_%M_%S_%f") + ".jpg"
         cv2.imwrite(os.path.join("DataC", filename), frame)
 
-    #function to collect one instance of data from the microphone
-    def collectMicrophoneData(self):
-        pass
-
-
 if __name__ == "__main__":
     #initialize the class
     data = dataColector()
     #creates an infinite loop that runs every second
-    #it collect the data from the camera
+    #it collects the data from the camera
     #and can be interrupted by the user
     while True:
         if cv2.waitKey(1) & 0xFF == ord('q'):

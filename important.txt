@@ -1,7 +1,8 @@
 Datasets:
 https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets
+https://www.mvtec.com/company/research/datasets/mvtec-ad
 
-Codigos:
+Papers:
 https://paperswithcode.com/task/unsupervised-anomaly-detection/latest
 https://paperswithcode.com/task/anomaly-detection/latest
 
