@@ -7,3 +7,8 @@ https://paperswithcode.com/task/anomaly-detection/latest
 
 May need:
 https://www.youtube.com/watch?v=BRoj3xG_C-o
+
+Repos:
+https://github.com/openvinotoolkit/anomalib
+https://github.com/rvorias/ind_knn_ad
+https://github.com/amazon-research/patchcore-inspection
